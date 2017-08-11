@@ -17,8 +17,6 @@ body {
     font-family: 'Give You Glory', cursive;
 }
 
-
-
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -31,7 +29,7 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
-    margin-bottom: 500px;
+    margin-bottom: 525px;
 }
 
 /* Custom Button Styles */
@@ -249,12 +247,6 @@ hr.small {
 @media(max-width:768px) {
     .map {
         height: 75%;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
     }
 }
 
