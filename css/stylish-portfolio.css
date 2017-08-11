@@ -17,6 +17,8 @@ body {
     font-family: 'Give You Glory', cursive;
 }
 
+
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -29,7 +31,7 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
-    margin-bottom: 525px;
+    margin-bottom: 500px;
 }
 
 /* Custom Button Styles */
@@ -250,7 +252,26 @@ hr.small {
     }
 }
 
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 16px;
 
+    }
+    .text-vertical-center {
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    #guru {
+        font-size: 15px;
+    }
+    #lead {
+        font-size: 10px;
+}
+}
 /*
 .map iframe {
     pointer-events: none;
